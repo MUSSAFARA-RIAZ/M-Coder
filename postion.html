@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <style>
+  /* relative,absolute,static,sticky,fixed */
+img{
+ width: 700px;
+
+}
+   #img{
+    /* position: static; */
+    /* position: relative;
+    left: 100px; */
+    /* top,left,right,bottom */
+    /* top:20px; */
+    /* position: fixed;
+    top: 100px; */
+    /* position: sticky;
+    top: 250px;
+    left: 100px; */
+    position: relative;
+    border: 2px solid green;
+
+    /* relative to their parent element  */
+    /* top: 120px; */
+
+
+
+
+
+
+
+
+   }
+   img{
+    position: absolute;
+    top: 100px;
+   }
+   #parent-div{
+    border: 5px solid purple;
+    background-color: yellow;
+    width: 500px;
+    position: relative;
+    top: 200px;
+    height: 300px;
+
+
+   }
+   #child-div{
+    position: absolute;
+    top: 20px;
+    border: 2px solid red;
+    
+    
+   }
+ 
+ 
+ </style>
+</head>
+<body>
+ <h1>CSS position</h1>
+ <div id="img">
+  <img src="./Images/csi.jpg" alt="">
+ </div>
+ <div id="text">
+  <p>Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Perspiciatis amet beatae obcaecati
+     sequi excepturi numquam ea expedita temporibus placeat recusandae. Tempora aliquam placeat, labore mollitia minima a? Mollitia aliquam quos recusandae, eum placeat tempore. Delectus dicta minima tenetur saepe, commodi nesciunt adipisci fuga ipsam alias atque eos illum, debitis necessitatibus!
+
+  </p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, id voluptas.
+    Ratione, ea quis nesciunt esse veniam vitae laboriosam voluptates!
+  </p>
+ </div>
+ <div id="text">
+  <p>Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Perspiciatis amet beatae obcaecati
+     sequi excepturi numquam ea expedita temporibus placeat recusandae. Tempora aliquam placeat, labore mollitia minima a? Mollitia aliquam quos recusandae, eum placeat tempore. Delectus dicta minima tenetur saepe, commodi nesciunt adipisci fuga ipsam alias atque eos illum, debitis necessitatibus!
+
+  </p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, id voluptas.
+    Ratione, ea quis nesciunt esse veniam vitae laboriosam voluptates!
+  </p>
+ </div>
+ <div id="text">
+  <p>Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Perspiciatis amet beatae obcaecati
+     sequi excepturi numquam ea expedita temporibus placeat recusandae. Tempora aliquam placeat, labore mollitia minima a? Mollitia aliquam quos recusandae, eum placeat tempore. Delectus dicta minima tenetur saepe, commodi nesciunt adipisci fuga ipsam alias atque eos illum, debitis necessitatibus!
+
+  </p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, id voluptas.
+    Ratione, ea quis nesciunt esse veniam vitae laboriosam voluptates!
+  </p>
+ </div>
+ <div id="text">
+  <p>Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Perspiciatis amet beatae obcaecati
+     sequi excepturi numquam ea expedita temporibus placeat recusandae. Tempora aliquam placeat, labore mollitia minima a? Mollitia aliquam quos recusandae, eum placeat tempore. Delectus dicta minima tenetur saepe, commodi nesciunt adipisci fuga ipsam alias atque eos illum, debitis necessitatibus!
+
+  </p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, id voluptas.
+    Ratione, ea quis nesciunt esse veniam vitae laboriosam voluptates!
+  </p>
+ </div>
+ 
+ </div>
+ <div id="parent-div">
+  <div id="child-div">
+    <h5>This is my child container</h5>
+  </div>
+  </div>
+ 
+</body>
+</html>
